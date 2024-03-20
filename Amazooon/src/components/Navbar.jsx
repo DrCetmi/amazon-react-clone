@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { FiSearch, FiShoppingCart } from "react-icons/fi";
-import Img from "../images/logo-transparent-png.png";
 import amzn from "../images/amazooon.png";
 import { LuMapPin } from "react-icons/lu";
 import { Link, useLocation, useNavigate } from "react-router-dom";

@@ -141,11 +141,6 @@ const Login = () => {
                   "Continue"
                 )}
               </button>
-              {/* {loginSuccess && (
-                <p className="text-green-600 text-xs font-semibold mt-2">
-                  Successful. Redirecting to Dashboard...
-                </p>
-              )} */}
             </div>
             <p className="text-xs text-black leading-4 mt-4">
               By Continuing, you agree to Amazon
@@ -179,7 +174,7 @@ const Login = () => {
           </p>
         </div>
         <p className="text-xs text-gray-600">
-          © 2024, Saiddlkc.com, Inc. or its affiliates
+          © 2024, amazon.com, Inc. or its affiliates
         </p>
       </div>
     </div>

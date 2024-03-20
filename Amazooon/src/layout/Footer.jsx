@@ -1,15 +1,14 @@
 import React from "react";
 import Img from "../images/amazooon.png";
 import { Link } from "react-router-dom";
-// import Footersprache from "./Footersprache";
 
 const Footer = () => {
   return (
-    <footer className=" text-white   text-center  z-0   w-full pt-4 px-0">
+    <footer className="text-white text-center z-0 w-full pt-4 px-0">
       <div className="bg-gray-600">
         <button className="p-4">Zurück zum Seitenanfang</button>
       </div>
-      <div className="bg-gray-800 flex text-left  justify-center   ">
+      <div className="bg-gray-800 flex text-left justify-center">
         <ul className="py-5 px-5">
           <h4 className="font-bold">Über Amazooon</h4>
           <li>
@@ -50,153 +49,150 @@ const Footer = () => {
         <ul className="py-5 px-5">
           <h4 className="font-bold">Amazooon Zahlungsarten</h4>
           <li>
-            <a href="">Amazooon.de VISA Karte</a>
+            <Link to="">Amazooon.de VISA Karte</Link>
           </li>
           <li>
-            <a href="">Gutscheine</a>
+            <Link to="">Gutscheine</Link>
           </li>
           <li>
-            <a href="">Bankeinzug</a>
+            <Link to="">Bankeinzug</Link>
           </li>
           <li>
-            <a href="">Rechnung</a>
+            <Link to="">Rechnung</Link>
           </li>
           <li>
-            <a href="">Ratenzahlung</a>
+            <Link to="">Ratenzahlung</Link>
           </li>
         </ul>
         <ul className="py-5 px-5">
           <h4 className="font-bold">Wir helfen Ihnen</h4>
           <li>
-            <a href="">Amazon und COVID-19</a>
+            <Link to="">Amazon und COVID-19</Link>
           </li>
           <li>
-            <a href="">Lieferung verfolgen oder Bestellung anzeigen</a>
+            <Link to="">Lieferung verfolgen oder Bestellung anzeigen</Link>
           </li>
           <li>
-            <a href="">Versand & Verfügbarkeit</a>
+            <Link to="">Versand & Verfügbarkeit</Link>
           </li>
           <li>
-            <a href="">Amazooon Prime</a>
+            <Link to="">Amazooon Prime</Link>
           </li>
           <li>
-            <a href="">Rückgabe & Ersatz</a>
+            <Link to="">Rückgabe & Ersatz</Link>
           </li>
         </ul>
       </div>
-      <div
-        className="bg-gray-800  shadow-lg shadow-gray-100 
-        py-4 px-0  w-full  flex  items-center justify-center"
-      >
-        <div className="mx-5 ">
+      <div className="bg-gray-800 shadow-lg shadow-gray-100 py-4 px-0 w-full flex items-center justify-center">
+        <div className="mx-5">
           <img className="w-12" src={Img} alt="" />
         </div>
 
         <div> Deutschland &copy; {new Date().getFullYear()}</div>
         {/* <Footersprache /> */}
       </div>{" "}
-      <div className="bg-gray-900  ">
-        <div className="flex text-left  justify-center ">
+      <div className="bg-gray-900">
+        <div className="flex text-left justify-center">
           <ul className="py-5 px-5">
             <li>
-              <a href="" className="font-bold">
+              <Link to="" className="font-bold">
                 Amazooon Advertising
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="">Kunden finden,</a>
+              <Link to="">Kunden finden,</Link>
             </li>
             <li>
-              <a href="">und binden</a>
+              <Link to="">und binden</Link>
             </li>
           </ul>
           <ul className="py-5 px-5">
             <li>
-              <a href="" className="font-bold">
+              <Link to="" className="font-bold">
                 Amazon Web Services
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="">Cloud Computing Dienste</a>
+              <Link to="">Cloud Computing Dienste</Link>
             </li>
             <li>
-              <a href="">Amazon Outlet</a>
+              <Link to="">Amazon Outlet</Link>
             </li>
             <li>
-              <a href="">Reduzierte B-Ware</a>
+              <Link to="">Reduzierte B-Ware</Link>
             </li>
             <li>
-              <a href="">Shopbop</a>
+              <Link to="">Shopbop</Link>
             </li>
           </ul>
           <ul className="py-5 px-5">
             <li>
-              <a href="" className="font-bold">
+              <Link to="" className="font-bold">
                 Neueröffnungen
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="">und finden</a>
+              <Link to="">und finden</Link>
             </li>
             <li>
-              <a href="">Verkaufen bei Amazooon</a>
+              <Link to="">Verkaufen bei Amazooon</Link>
             </li>
             <li>
-              <a href="">Business</a>
+              <Link to="">Business</Link>
             </li>
             <li>
-              <a href="">Kunden finden</a>
+              <Link to="">Kunden finden</Link>
             </li>
           </ul>
           <ul className="py-5 px-5">
             <li>
-              <a href="" className="font-bold">
+              <Link to="" className="font-bold">
                 Amazon Second Chance
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="">Geben Sie es weiter,</a>
+              <Link to="">Geben Sie es weiter,</Link>
             </li>
             <li>
-              <a href="">tauschen Sie es ein,</a>
+              <Link to="">tauschen Sie es ein,</Link>
             </li>
             <li>
-              <a href="">geben Sie ihm ein zweites Leben</a>
+              <Link to="">geben Sie ihm ein zweites Leben</Link>
             </li>
           </ul>
 
           <ul className="py-5 px-5">
             <li>
-              <a href="" className="font-bold">
+              <Link to="" className="font-bold">
                 Amazon Business Kauf auf Rechnung. PO-Nummern.
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="">Für Unternehmen.</a>
+              <Link to="">Für Unternehmen.</Link>
             </li>
           </ul>
         </div>
         <div>
-          <ul className="flex pt-9 pb-2 gap-6 justify-center   font-bold">
+          <ul className="flex pt-9 pb-2 gap-6 justify-center font-bold">
             <li>
-              <a href="">Unsere AGB</a>
+              <Link to="">Unsere AGB</Link>
             </li>
             <li>
-              <a href="">Datenschutzerklärung</a>
+              <Link to="">Datenschutzerklärung</Link>
             </li>
             <li>
-              <a href="">Hinweise zu Cookies</a>
+              <Link to="">Hinweise zu Cookies</Link>
             </li>
             <li>
-              <a href="">ZVAB</a>
+              <Link to="">ZVAB</Link>
             </li>
             <li>
-              <a href="">Impressum</a>
+              <Link to="">Impressum</Link>
 
-              <a href="">Amazooon Business</a>
+              <Link to="">Amazooon Business</Link>
             </li>
           </ul>
-          <ul className=" font-bold">
+          <ul className="font-bold">
             <li>
               {" "}
               &copy; {new Date().getFullYear()} 2019-2024 Amazooon.com, Inc oder

@@ -91,7 +91,7 @@ const Registration = () => {
           name: clientName,
           email: email,
           password: password,
-          cart:[],
+          cart: [],
         }),
         headers: {
           "Content-Type": "application/json",
@@ -224,7 +224,7 @@ const Registration = () => {
           </p>
         </div>
         <p className="text-xs text-gray-600">
-          © 2024, Saiddlkc.com, Inc. or its affiliates
+          © 2024, amazon.com, Inc. or its affiliates
         </p>
       </div>
     </div>

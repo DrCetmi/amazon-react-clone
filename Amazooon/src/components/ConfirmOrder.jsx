@@ -1,13 +1,10 @@
 import React, { useEffect, useState } from "react";
 import amzn from "../images/darkLogo.png";
-import { useCart } from "../pages/home/context/CartContext";
 import { FaLock } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 const ConfirmOrder = () => {
   const [cartItems, setCartItems] = useState([]);
-  const { cartCount } = useCart();
-  const [cartItemsCount, setCartItemsCount] = useState(0);
   const N = localStorage.getItem("CartN");
   const [discountCode, setDiscountCode] = useState("");
 
